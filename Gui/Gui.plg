@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gui - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Release/MyCard.res" /i "..\inc" /i "..\..\inc" /i ".\Release" /d "NDEBUG" /d "WIN32" "C:\Program Files\VLC\Development\Galil1842\GUI\MyCard.RC"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MT /W4 /Zi /O2 /I "..\inc" /I "..\..\inc" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "STRICT" /FR".\Release/" /Fp".\Release/Gui.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\Program Files\VLC\Development\Galil1842\GUI\Card.cpp"
+"C:\Program Files\VLC\Development\Galil1842\GUI\DEVICES.CPP"
+"C:\Program Files\VLC\Development\Galil1842\GUI\GOODIES.CPP"
+"C:\Program Files\VLC\Development\Galil1842\GUI\MFCSTUFF.CPP"
+"C:\Program Files\VLC\Development\Galil1842\GUI\NETWORK.CPP"
+"C:\Program Files\VLC\Development\Galil1842\GUI\POINTS.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+oldnames.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Release/Galil1842.pdb" /map:".\Release/Galil1842.map" /debug /debugtype:both /machine:IX86 /out:"\Program Files\VLC\Driver 6_X\Bin\Galil1842.io3" /implib:".\Release/Galil1842.lib" /pdbtype:sept 
+".\Release\Card.obj"
+".\Release\DEVICES.OBJ"
+".\Release\GOODIES.OBJ"
+".\Release\MFCSTUFF.OBJ"
+".\Release\NETWORK.OBJ"
+".\Release\POINTS.OBJ"
+".\Release\MyCard.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Card.cpp
+DEVICES.CPP
+GOODIES.CPP
+MFCSTUFF.CPP
+NETWORK.CPP
+C:\Program Files\VLC\Development\Galil1842\GUI\NETWORK.CPP(54) : warning C4100: 'DevType' : unreferenced formal parameter
+POINTS.CPP
+Linking...
+   Creating library .\Release/Galil1842.lib and object .\Release/Galil1842.exp
+
+
+
+<h3>Results</h3>
+Galil1842.io3 - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
